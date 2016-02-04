@@ -1,0 +1,29 @@
+{
+  "name": "coffee-import",
+  "version": "1.0.0",
+  "description": "Transpile ES6 imports in CoffeeScript files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneidmaster/coffee-import.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "loader",
+    "import",
+    "es6"
+  ],
+  "author": "Zach Schneider <zach@schneid.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schneidmaster/coffee-import/issues"
+  },
+  "homepage": "https://github.com/schneidmaster/coffee-import#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
