@@ -44,6 +44,10 @@ var transpiled = coffeeImport(fs.readFileSync('some-file.coffee').toString());
 var compiled = coffee.compile(transpiled);
 ```
 
+## Testing
+
+* `npm run test` to run the mocha tests
+
 ## Contributing
 
 1. Fork it ( https://github.com/schneidmaster/coffee-import/fork )
