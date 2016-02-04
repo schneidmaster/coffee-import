@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/coffee-import.svg)](https://badge.fury.io/js/coffee-import)
+[![Circle CI](https://circleci.com/gh/schneidmaster/coffee-import.svg?style=shield)](https://circleci.com/gh/schneidmaster/coffee-import)
+
 # coffee-import
 
 coffee-import is a utility package to transpile ES6 `import` statements in CoffeeScript files before they're passed to the CoffeeScript compiler.
@@ -43,6 +46,8 @@ var coffeeImport = require('coffee-import');
 var transpiled = coffeeImport(fs.readFileSync('some-file.coffee').toString());
 var compiled = coffee.compile(transpiled);
 ```
+
+Alternatively, use the [webpack loader](https://www.npmjs.com/package/coffee-import-loader).
 
 ## Testing
 
