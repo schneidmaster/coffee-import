@@ -1,6 +1,3 @@
-[![npm version](https://badge.fury.io/js/coffee-import.svg)](https://badge.fury.io/js/coffee-import)
-[![Circle CI](https://circleci.com/gh/schneidmaster/coffee-import.svg?style=shield)](https://circleci.com/gh/schneidmaster/coffee-import)
-
 # Deprecated
 
 [As of 1.11.0](https://github.com/jashkenas/coffeescript/issues/3162#issuecomment-249377792), CoffeeScript has native support for ES6 imports and exports, so this package is no longer necessary (and the official version is better because it allows you to use real ES6 modules, while this package merely provided syntactic sugar for CommonJS requires).
